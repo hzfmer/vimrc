@@ -1,6 +1,6 @@
 # Personal VIM configuration
 
 ```
-cp vimrc/vimrc ~/.vim/.vimrc
+ln -s vimrc/vimrc ~/.vim/.vimrc
 ```
 
