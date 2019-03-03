@@ -37,7 +37,11 @@ set incsearch
 set laststatus=2
 set magic
 set matchtime=1
-set nobackup
+"set nobackup
+"set noswapfile
+set backupdir=~/.vim/backup//
+set directory=~/.vim/swap//
+set undodir=~/.vim/undo//
 set nocompatible
 set nojoinspaces
 set nu rnu
@@ -53,7 +57,6 @@ set shiftwidth=2 softtabstop=2 tabstop=2
 set suffixes=.bak,~,.o,.h,.info,.swp,.aux,.bbl,.blg,.dvi,.lof,.log,.lot,.ps,.toc
 set termguicolors
 set undofile
-set undodir=$HOME/.vim/undo
 set wildmenu
 set wrap
 
