@@ -108,7 +108,7 @@ map <leader><F6> ms:call TitleDet()<cr>'s
 function! AddTitle()
     call append(0,"/*******************************************************    ************************")
     call append(1," * Author : Zhifeng Hu | SDSU/UCSD.")
-    call append(2," * Email  : hzfmer94@gmail.com")
+    call append(2," * Email  : zhh076@ucsd.edu")
     call append(3," * Last modified : ".strftime("%Y-%m-%d %H:%M"))
     call append(4," * Filename   : ".expand("%:t"))
     call append(5," * Description    : ")
