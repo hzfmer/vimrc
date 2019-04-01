@@ -168,7 +168,6 @@ vnoremap <Tab> >gv
 
 
 """ Abbreviations
-iabbrev eml --<cr>Zhifeng Hu<cr>hzfmer94@gmail.com
 iabbrev pt <c-r>=strftime("20%y.%m.%d \| %T(%A)" )<cr>
 
 """ Abbreviations <END>
